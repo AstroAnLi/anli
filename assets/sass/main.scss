@@ -712,12 +712,12 @@
 
 		&.special {
 			@include vendor('justify-content', 'center');
-			width: 'auto';
-			margin-left: 0;
+			width: 100%;
+			margin-left: auto;
 
 			li {
 				&:first-child {
-					padding-left: 0;
+					padding-left: auto;
 				}
 			}
 		}
