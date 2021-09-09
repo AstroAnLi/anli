@@ -713,11 +713,11 @@
 		&.special {
 			@include vendor('justify-content', 'center');
 			width: 100%;
-			margin-left: auto;
+			margin-left: 0;
 
 			li {
 				&:first-child {
-					padding-left: auto;
+					padding-left: 0;
 				}
 			}
 		}
