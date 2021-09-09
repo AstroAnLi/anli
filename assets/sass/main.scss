@@ -712,7 +712,7 @@
 
 		&.special {
 			@include vendor('justify-content', 'center');
-			width: 100%;
+			width: 'auto';
 			margin-left: 0;
 
 			li {
