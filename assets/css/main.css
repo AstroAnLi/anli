@@ -3997,3 +3997,15 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+.spotlight {
+	align-items: center;
+}
+
+.spotlight .image {
+	padding-right: 2rem;
+}
+
+.spotlight .content {
+	max-width: 72%;
+	padding-left: 1rem;
+}
